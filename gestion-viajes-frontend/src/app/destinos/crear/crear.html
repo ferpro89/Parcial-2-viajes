@@ -1,0 +1,13 @@
+<h2>Crear Destino</h2>
+<form [formGroup]="destinoForm" (ngSubmit)="guardar()">
+  <label>Nombre:</label>
+  <input formControlName="nombre" /><br />
+  <label>País:</label>
+  <input formControlName="pais" /><br />
+  <label>Descripción:</label>
+  <input formControlName="descripcion" /><br />
+  <label>Costo:</label>
+  <input formControlName="costo" type="number" /><br />
+  <button type="submit">Guardar</button>
+</form>
+

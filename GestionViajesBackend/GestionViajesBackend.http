@@ -1,0 +1,6 @@
+@GestionViajesBackend_HostAddress = http://localhost:5182
+
+GET {{GestionViajesBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

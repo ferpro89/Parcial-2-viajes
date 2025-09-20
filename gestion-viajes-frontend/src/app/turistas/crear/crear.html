@@ -1,0 +1,13 @@
+
+<h2>Crear Turista</h2>
+<form [formGroup]="turistaForm" (ngSubmit)="guardar()">
+  <label>Nombre:</label>
+  <input formControlName="nombre" /><br />
+  <label>Apellido:</label>
+  <input formControlName="apellido" /><br />
+  <label>Email:</label>
+  <input formControlName="email" /><br />
+  <label>Teléfono:</label>
+  <input formControlName="telefono" /><br />
+  <button type="submit">Guardar</button>
+</form>
